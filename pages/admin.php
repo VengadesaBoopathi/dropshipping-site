@@ -74,8 +74,8 @@ use PHPMailer\PHPMailer\Exception;
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'vengiboopathi@gmail.com';  
-                    $mail->Password = 'wyto oitm wdcy vkui';  
+                    $mail->Username = '***********************';  
+                    $mail->Password = '***********************';  
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
                     $mail->Port = 465;
 
@@ -89,8 +89,8 @@ use PHPMailer\PHPMailer\Exception;
                     );
 
                     // Recipients
-                    $mail->setFrom('vengiboopathi@gmail.com', 'Webmaster');
-                    $mail->addAddress('vengiboopathi@gmail.com');
+                    $mail->setFrom('v**oopathi@gmail.com', 'Webmaster');
+                    $mail->addAddress('ve****i@gmail.com');
 
                     // Content
                     $mail->isHTML(true);
